@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.clxp.net.cn/article/3012.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=10,IE=9,IE=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog</title>
+<script>
+window._deel = {
+    name: '死性不改&#039;s Blog',
+    url: 'http://www.clxp.net.cn/wp-content/themes/d11',
+    rss: 'http://www.clxp.net.cn/feed',
+    ajaxpager: '',
+    maillist: '',
+    maillistCode: '',
+    commenton: 1,
+    roll: [0,0],
+    tougaoContentmin: 200,
+    tougaoContentmax: 5000,
+    appkey: {
+    	tqq: '801494063',
+    	tsina: '1106777879',
+    	t163: '',
+    	tsohu: ''
+    }
+}
+</script>
+<link rel="stylesheet" id="sl-style-css" href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-css" href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/crayon.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/style(1).css" type="text/css" media="all">
+<script type="text/javascript" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/recaptcha_ajax.js"></script>
+<script type="text/javascript" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/jquery.js"></script>
+<script type="text/javascript" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/jquery.blockUI.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sexy_loginl_data = {"ajaxurl":"http:\/\/www.clxp.net.cn\/wp-admin\/admin-ajax.php","loadingurl":"http:\/\/www.clxp.net.cn\/wp-content\/plugins\/sexy-login\/img\/ajax-loader.gif","public_key":"","captcha_enter":"Enter the two words above","captcha_get":"Get another Captcha"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/sexy-login.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.6.10","is_admin":"0","ajaxurl":"http:\/\/www.clxp.net.cn\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u7528 %s \u7c98\u8d34\u3002","minimize":"\u70b9\u51fb\u5c55\u5f00\u4ee3\u7801"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/crayon.min.js"></script>
+<link rel="prev" title="英雄联盟为什么会这么受玩家欢迎？？？" href="http://www.clxp.net.cn/article/3009.html">
+<link rel="next" title="让 IE10/IE11 以32位方式启动" href="http://www.clxp.net.cn/article/3019.html">
+<link rel="canonical" href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog.htm">
+<link rel="shortlink" href="http://www.clxp.net.cn/?p=3012">
+
+<link rel="stylesheet" href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/highslide.css" type="text/css">
+<script type="text/javascript" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/highslide-with-gallery.packed.js"></script>
+<script type="text/javascript">
+	hs.graphicsDir = "http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/";
+	hs.align = "center";
+	hs.transitions = ["expand", "crossfade"];
+	hs.outlineType = "rounded-white";
+	hs.fadeInOut = true;
+	//添加背景
+	//hs.dimmingOpacity = 0.75;
+
+	// define the restraining box
+	//hs.useBox = true;
+	//hs.width = 800;
+	//hs.height = 600;
+
+	// Add the controlbar
+	hs.addSlideshow({
+		//slideshowGroup: "group1",
+		interval: 5000,
+		repeat: false,
+		useControls: true,
+		fixedControls: "fit",
+		overlayOptions: {
+			opacity: 1,
+			position: "bottom center",
+			hideOnMouseOut: true
+		}
+	});
+	
+	// hs.graphicsDir = "http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/";
+	// hs.outlineType = "rounded-white";
+	// hs.outlineWhileAnimating = true;
+	// hs.showCredits = false;
+</script>
+	<meta name="keywords" content="win7, 资料共享">
+<meta name="description" content="经过1年的沉淀，Win7服务的优化方案已经足够完善了，下面这套方案适合几乎所有场景使用，办公、家庭、网吧系统都可以使用（家庭或个人可能还要适当调整，比如打印类似的服务，网吧一定是足够使用了）。如果没有问题，ISO9000系列系统后期的版本也将始终参考该优化方案进行优化。  大家可以把以下服务优化方案制作为批处理，方便以后自己使用，如果不具备制作批处理的能力，可以网络搜索 “设置系统服务状态命令”获得帮助。     服务名称  显示名称 ">
+<style type="text/css">.hacklogdownload_downlinks{width:500px}.hacklogdownload_down_link{margin-top:10px;background:#e0e2e4;border:1px solid #330;color:#222;padding:5px 5px 5px 20px}.hacklogdownload_down_link a{color:#57d}.hacklogdownload_views{color:red}.hacklogdownload_box{border-bottom:1px solid #aaa;padding:10px 0}.hacklogdownload_box_content{line-height:18px;padding:0 0 0 10px}.hacklogdownload_box_content p{margin:5px 0}.hacklogdownload_box_content a{color:#d54e21}.hacklogdownload_box_content a:hover{color:#1d1d1d}.hacklogdownload_left{float:left;width:320px}.hacklogdownload_right{width:160px;float:right;margin:0 auto}.hacklogdownload_right img{max-width:160px}.hacklogdownload_notice{padding-top:10px;text-align:center}#facebox .content{width:600px;background:none repeat scroll 0 0 #e0e2e4;color:#333}#facebox .popup{border:6px solid #444}</style><meta name="baidu_union_verify" content="bc0283a32419cc343c8a9c32ee1bda12">
+<style>.article-content{font-size: 14px;}@media (max-width:640px){.article-content{font-size:16px}}@media (max-width:767px){.banner{display:none}}</style><!--[if lt IE 9]><script src="http://www.clxp.net.cn/wp-content/themes/d11/js/html5.js"></script><![endif]-->
+<script src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/share.js"></script><style type="text/css">.highslide img {cursor: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/zoomin.cur), pointer !important;}.highslide-viewport-size {position: fixed; width: 100%; height: 100%; left: 0; top: 0}</style><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_24.css"><script type="text/javascript" charset="utf-8" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/getnum"></script><style type="text/css">.highslide img {cursor: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/zoomin.cur), pointer !important;}.highslide-viewport-size {position: fixed; width: 100%; height: 100%; left: 0; top: 0}</style></head>
+<body class="single single-post postid-3012 single-format-standard">
+<div class="navbar-wrap">
+<div class="navbar">
+		<div class="logo"><a href="http://www.clxp.net.cn/" title="死性不改&#39;s Blog--存在即是合理，一切皆有可能">死性不改's Blog</a></div>
+		<ul class="nav">
+			<li id="menu-item-4166" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4166"><a href="http://www.clxp.net.cn/">首页</a></li>
+<li id="menu-item-2203" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-2203"><a href="http://www.clxp.net.cn/article/category/data">资料共享</a>
+<ul class="sub-menu">
+	<li id="menu-item-2204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2204"><a href="http://www.clxp.net.cn/article/category/news">大事小情</a></li>
+	<li id="menu-item-2205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2205"><a href="http://www.clxp.net.cn/article/category/software">软件推荐</a></li>
+	<li id="menu-item-2343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2343"><a href="http://www.clxp.net.cn/article/category/product">产品碎碎念</a></li>
+	<li id="menu-item-2878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2878"><a href="https://technet.microsoft.com/zh-cn/library/security/dn631938.aspx">微软安全公告</a></li>
+	<li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="http://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx">GetLastError</a></li>
+	<li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="http://msdn.microsoft.com/en-us/library/windows/hardware/hh994433(v=vs.85).aspx">Bug Check Code</a></li>
+	<li id="menu-item-3244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3244"><a href="http://msdn.microsoft.com/library/">Developer Network</a></li>
+	<li id="menu-item-4193" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4193"><a href="http://support.microsoft.com/kb/913086">安全更新ISO文件</a></li>
+</ul>
+</li>
+<li id="menu-item-3547" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3547"><a href="http://www.clxp.net.cn/sdown">系统及工具</a>
+<ul class="sub-menu">
+	<li id="menu-item-2436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2436"><a href="http://www.clxp.net.cn/sdown">系统下载</a></li>
+	<li id="menu-item-3449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3449"><a href="http://www.clxp.net.cn/devdown">驱动下载</a></li>
+	<li id="menu-item-2207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2207"><a href="http://www.clxp.net.cn/SunwardToolBox">工具下载</a></li>
+</ul>
+</li>
+<li id="menu-item-2206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2206"><a href="http://www.clxp.net.cn/gbook">留言板</a></li>
+<li id="menu-item-3523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3523"><a href="http://www.clxp.net.cn/donate">赞助本站</a></li>
+<li id="menu-item-4206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4206"><a href="http://www.clxp.net.cn/ezopt">简单优化</a></li>
+		</ul><div class="screen-mini"><button data-type="screen-nav" class="btn btn-inverse screen-nav"><i class="icon-tasks icon-white"></i></button></div>
+		<div class="menu pull-right">
+			<form method="get" class="dropdown search-form" action="http://www.clxp.net.cn/">
+				<input class="search-input" name="s" type="text" placeholder="输入关键字搜索" x-webkit-speech=""><input class="btn btn-success search-submit" type="submit" value="搜索">
+				<ul class="dropdown-menu search-suggest"></ul>
+			</form>
+			<div class="btn-group pull-left">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#feed">订阅</button>
+							</div>
+		</div>
+</div>
+</div>
+<header class="header">
+	<div class="speedbar">
+					<div class="pull-right">
+				<i class="icon-user icon12"></i> <a href="http://www.clxp.net.cn/wp-login.php">登录</a>			</div>
+				<div class="toptip"><strong class="text-success">最新消息：</strong><span style="color: #ff0000;">为了您更好的阅读体验，请使用比1024*768更大的分辨率浏览本站</span>  | <strong><span style="color: #ff0000;">@赞助本站</span><a href="http://www.clxp.net.cn/donate">点这里</a></strong>  | <span style="color: #ff0000;"><a href="http://www.clxp.net.cn/article/3326.html">系统下载</a></span>  | <strong><span style="color: #ff0000;"><a href="http://www.clxp.net.cn/article/3341.html">帐号注册须知</a></span></strong> | <span style="color: #ff0000;"><a href="http://download.anydesk.com/AnyDesk.exe">Anydesk1.2.1</a></span> | <strong><span style="color: #00DB00;"><a href="http://www.clxp.net.cn/article/3483.html">红杏翻墙</a></span></strong></div>
+	</div>
+</header>
+<section class="container">
+	<div class="content-wrap">
+	<div class="content">
+		<div class="breadcrumbs">你的位置：<a href="http://www.clxp.net.cn/">死性不改's Blog</a> <small>&gt;</small> <a href="http://www.clxp.net.cn/article/category/data">资料共享</a> <small>&gt;</small> <span class="muted">Win7 服务优化方案 （个人、网吧均适用）</span></div>
+				<header class="article-header">
+			<h1 class="article-title"><a href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog.htm">Win7 服务优化方案 （个人、网吧均适用）</a></h1>
+			<div class="meta">
+				<span class="muted"><a href="http://www.clxp.net.cn/article/category/data"><i class="icon-list-alt icon12"></i> 资料共享</a></span>				<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.clxp.net.cn/article/author/123">123</a></span>
+				<time class="muted"><i class="ico icon-time icon12"></i> 9个月前 (08-07)</time>
+				<span class="muted"><i class="ico icon-eye-open icon12"></i> 5036浏览</span>
+				<span class="muted"><i class="icon-comment icon12"></i> <a href="http://www.clxp.net.cn/article/3012.html#comments">0评论</a></span><a href="http://www.clxp.net.cn/article/3012.html#" onclick="copy_code(&#39;Win7 服务优化方案 （个人、网吧均适用）\nhttp://www.clxp.net.cn/article/3012.html&#39;); return false;">[复制本文链接]</a> 
+							</div>
+		</header>
+
+				
+		<article class="article-content">
+			<p>经过1年的沉淀，Win7服务的优化方案已经足够完善了，下面这套方案适合几乎所有场景使用，办公、家庭、网吧系统都可以使用（家庭或个人可能还要适当调整，比如打印类似的服务，网吧一定是足够使用了）。如果没有问题，ISO9000系列系统后期的版本也将始终参考该优化方案进行优化。</p>
+<p>大家可以把以下服务优化方案制作为批处理，方便以后自己使用，如果不具备制作批处理的能力，可以网络搜索 “设置系统服务状态命令”获得帮助。</p>
+<table>
+<tbody>
+<tr>
+<td>&nbsp;服务名称</td>
+<td>&nbsp;显示名称</td>
+<td>设置状态</td>
+<td>&nbsp;备注</td>
+</tr>
+<tr>
+<td>&nbsp;AxInstSV</td>
+<td>&nbsp;ActiveX Installer (AxInstSV)</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SensrSvc</td>
+<td>&nbsp;Adaptive Brightness</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;AeLookupSvc</td>
+<td>&nbsp;Application Experience</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;AppIDSvc</td>
+<td>&nbsp;Application Identity</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Appinfo</td>
+<td>&nbsp;Application Information</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;ALG</td>
+<td>&nbsp;Application Layer Gateway Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;AppMgmt</td>
+<td>&nbsp;Application Management</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;aspnet_state</td>
+<td>&nbsp;ASP.NET State Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;BITS</td>
+<td>&nbsp;Background Intelligent Transfer Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;BFE</td>
+<td>&nbsp;Base Filtering Engine</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;安全</td>
+</tr>
+<tr>
+<td>&nbsp;BDESVC</td>
+<td>&nbsp;BitLocker Drive Encryption Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;wbengine</td>
+<td>&nbsp;Block Level Backup Engine Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PeerDistSvc</td>
+<td>&nbsp;BranchCache</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;CertPropSvc</td>
+<td>&nbsp;Certificate Propagation</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;KeyIso</td>
+<td>&nbsp;CNG Key Isolation</td>
+<td>&nbsp;Manual</td>
+<td>&nbsp;无线依赖</td>
+</tr>
+<tr>
+<td>&nbsp;EventSystem</td>
+<td>&nbsp;COM+ Event System</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;COMSysApp</td>
+<td>&nbsp;COM+ System Application</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Browser</td>
+<td>&nbsp;Computer Browser</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;VaultSvc</td>
+<td>&nbsp;Credential Manager</td>
+<td>&nbsp;Manual</td>
+<td>&nbsp;凭据管理</td>
+</tr>
+<tr>
+<td>&nbsp;CryptSvc</td>
+<td>&nbsp;Cryptographic Services</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;DcomLaunch</td>
+<td>&nbsp;DCOM Server Process Launcher</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;UxSms</td>
+<td>&nbsp;Desktop Window Manager Session Manager</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;主题</td>
+</tr>
+<tr>
+<td>&nbsp;Dhcp</td>
+<td>&nbsp;DHCP Client</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;DPS</td>
+<td>&nbsp;Diagnostic Policy Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WdiServiceHost</td>
+<td>&nbsp;Diagnostic Service Host</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WdiSystemHost</td>
+<td>&nbsp;Diagnostic System Host</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;defragsvc</td>
+<td>&nbsp;Disk Defragmenter</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;TrkWks</td>
+<td>&nbsp;Distributed Link Tracking Client</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;MSDTC</td>
+<td>&nbsp;Distributed Transaction Coordinator</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Dnscache</td>
+<td>&nbsp;DNS Client</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;DNS缓存</td>
+</tr>
+<tr>
+<td>&nbsp;EFS</td>
+<td>&nbsp;Encrypting File System (EFS)</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;EapHost</td>
+<td>&nbsp;Extensible Authentication Protocol</td>
+<td>&nbsp;Manual</td>
+<td>&nbsp;无线依赖</td>
+</tr>
+<tr>
+<td>&nbsp;fdPHost</td>
+<td>&nbsp;Function Discovery Provider Host</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;FDResPub</td>
+<td>&nbsp;Function Discovery Resource Publication</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;gpsvc</td>
+<td>&nbsp;Group Policy Client</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;hkmsvc</td>
+<td>&nbsp;Health Key and Certificate Management</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;HomeGroupListener</td>
+<td>&nbsp;HomeGroup Listener</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;HomeGroupProvider</td>
+<td>&nbsp;HomeGroup Provider</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;hidserv</td>
+<td>&nbsp;Human Interface Device Access</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;IKEEXT</td>
+<td>&nbsp;IKE and AuthIP IPsec Keying Modules</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;UI0Detect</td>
+<td>&nbsp;Interactive Services Detection</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SharedAccess</td>
+<td>&nbsp;Internet Connection Sharing (ICS)</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;iphlpsvc</td>
+<td>&nbsp;IP Helper</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PolicyAgent</td>
+<td>&nbsp;IPsec Policy Agent</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;IPSEC</td>
+</tr>
+<tr>
+<td>&nbsp;KtmRm</td>
+<td>&nbsp;KtmRm for Distributed Transaction Coordinator</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;lltdsvc</td>
+<td>&nbsp;Link-Layer Topology Discovery Mapper</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;clr_optimization_v2.0.50727_64</td>
+<td>&nbsp;Microsoft .NET Framework NGEN v2.0.50727_X64</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;clr_optimization_v2.0.50727_32</td>
+<td>&nbsp;Microsoft .NET Framework NGEN v2.0.50727_X86</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;clr_optimization_v4.0.30319_64</td>
+<td>&nbsp;Microsoft .NET Framework NGEN v4.0.30319_X64</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;clr_optimization_v4.0.30319_32</td>
+<td>&nbsp;Microsoft .NET Framework NGEN v4.0.30319_X86</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;MSiSCSI</td>
+<td>&nbsp;Microsoft iSCSI Initiator Service</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;swprv</td>
+<td>&nbsp;Microsoft Software Shadow Copy Provider</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;MMCSS</td>
+<td>&nbsp;Multimedia Class Scheduler</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;NetMsmqActivator</td>
+<td>&nbsp;Net.Msmq Listener Adapter</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;NetPipeActivator</td>
+<td>&nbsp;Net.Pipe Listener Adapter</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;NetTcpActivator</td>
+<td>&nbsp;Net.Tcp Listener Adapter</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;NetTcpPortSharing</td>
+<td>&nbsp;Net.Tcp Port Sharing Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Netlogon</td>
+<td>&nbsp;Netlogon</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;napagent</td>
+<td>&nbsp;Network Access Protection Agent</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Netman</td>
+<td>&nbsp;Network Connections</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;netprofm</td>
+<td>&nbsp;Network List Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;NlaSvc</td>
+<td>&nbsp;Network Location Awareness</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;nsi</td>
+<td>&nbsp;Network Store Interface Service</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;CscService</td>
+<td>&nbsp;Offline Files</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WPCSvc</td>
+<td>&nbsp;Parental Controls</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PNRPsvc</td>
+<td>&nbsp;Peer Name Resolution Protocol</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;p2psvc</td>
+<td>&nbsp;Peer Networking Grouping</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;p2pimsvc</td>
+<td>&nbsp;Peer Networking Identity Manager</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PerfHost</td>
+<td>&nbsp;Performance Counter DLL Host</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;pla</td>
+<td>&nbsp;Performance Logs &amp; Alerts</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PlugPlay</td>
+<td>&nbsp;Plug and Play</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;IPBusEnum</td>
+<td>&nbsp;PnP-X IP Bus Enumerator</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PNRPAutoReg</td>
+<td>&nbsp;PNRP Machine Name Publication Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WPDBusEnum</td>
+<td>&nbsp;Portable Device Enumerator Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Power</td>
+<td>&nbsp;Power</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Spooler</td>
+<td>&nbsp;Print Spooler</td>
+<td>&nbsp;Disable</td>
+<td>&nbsp;打印</td>
+</tr>
+<tr>
+<td>&nbsp;wercplsupport</td>
+<td>&nbsp;Problem Reports and Solutions Control Panel Support</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;PcaSvc</td>
+<td>&nbsp;Program Compatibility Assistant Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;ProtectedStorage</td>
+<td>&nbsp;Protected Storage</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;QWAVE</td>
+<td>&nbsp;Quality Windows Audio Video Experience</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;RasAuto</td>
+<td>&nbsp;Remote Access Auto Connection Manager</td>
+<td>&nbsp;Manual</td>
+<td>&nbsp;VPN依赖</td>
+</tr>
+<tr>
+<td>&nbsp;RasMan</td>
+<td>&nbsp;Remote Access Connection Manager</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;VPN依赖</td>
+</tr>
+<tr>
+<td>&nbsp;SessionEnv</td>
+<td>&nbsp;Remote Desktop Configuration</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;TermService</td>
+<td>&nbsp;Remote Desktop Services</td>
+<td>&nbsp;Manual</td>
+<td>&nbsp;远程桌面</td>
+</tr>
+<tr>
+<td>&nbsp;UmRdpService</td>
+<td>&nbsp;Remote Desktop Services UserMode Port Redirector</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;RpcSs</td>
+<td>&nbsp;Remote Procedure Call (RPC)</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;RpcLocator</td>
+<td>&nbsp;Remote Procedure Call (RPC) Locator</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;RemoteRegistry</td>
+<td>&nbsp;Remote Registry</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;RemoteAccess</td>
+<td>&nbsp;Routing and Remote Access</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;RpcEptMapper</td>
+<td>&nbsp;RPC Endpoint Mapper</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;seclogon</td>
+<td>&nbsp;Secondary Logon</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SstpSvc</td>
+<td>&nbsp;Secure Socket Tunneling Protocol Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SamSs</td>
+<td>&nbsp;Security Accounts Manager</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;wscsvc</td>
+<td>&nbsp;Security Center</td>
+<td>&nbsp;Disable</td>
+<td>&nbsp;操作中心</td>
+</tr>
+<tr>
+<td>&nbsp;LanmanServer</td>
+<td>&nbsp;Server</td>
+<td>&nbsp;Disable</td>
+<td>&nbsp;共享</td>
+</tr>
+<tr>
+<td>&nbsp;ShellHWDetection</td>
+<td>&nbsp;Shell Hardware Detection</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;自动播放</td>
+</tr>
+<tr>
+<td>&nbsp;SCardSvr</td>
+<td>&nbsp;Smart Card</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SCPolicySvc</td>
+<td>&nbsp;Smart Card Removal Policy</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SNMPTRAP</td>
+<td>&nbsp;SNMP Trap</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;sppsvc</td>
+<td>&nbsp;Software Protection</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;sppuinotify</td>
+<td>&nbsp;SPP Notification Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SSDPSRV</td>
+<td>&nbsp;SSDP Discovery</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;StorSvc</td>
+<td>&nbsp;Storage Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SysMain</td>
+<td>&nbsp;Superfetch</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SENS</td>
+<td>&nbsp;System Event Notification Service</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;TabletInputService</td>
+<td>&nbsp;Tablet PC Input Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Schedule</td>
+<td>&nbsp;Task Scheduler</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;计划任务</td>
+</tr>
+<tr>
+<td>&nbsp;lmhosts</td>
+<td>&nbsp;TCP/IP NetBIOS Helper</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;TapiSrv</td>
+<td>&nbsp;Telephony</td>
+<td>&nbsp;Manual</td>
+<td>&nbsp;VPN依赖</td>
+</tr>
+<tr>
+<td>&nbsp;Themes</td>
+<td>&nbsp;Themes</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;主题</td>
+</tr>
+<tr>
+<td>&nbsp;THREADORDER</td>
+<td>&nbsp;Thread Ordering Server</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;TBS</td>
+<td>&nbsp;TPM Base Services</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;upnphost</td>
+<td>&nbsp;UPnP Device Host</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;ProfSvc</td>
+<td>&nbsp;User Profile Service</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;vds</td>
+<td>&nbsp;Virtual Disk</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;VSS</td>
+<td>&nbsp;Volume Shadow Copy</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WebClient</td>
+<td>&nbsp;WebClient</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;AudioSrv</td>
+<td>&nbsp;Windows Audio</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;AudioEndpointBuilder</td>
+<td>&nbsp;Windows Audio Endpoint Builder</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;SDRSVC</td>
+<td>&nbsp;Windows Backup</td>
+<td>&nbsp;Disable</td>
+<td>&nbsp;系统备份</td>
+</tr>
+<tr>
+<td>&nbsp;WbioSrvc</td>
+<td>&nbsp;Windows Biometric Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;idsvc</td>
+<td>&nbsp;Windows CardSpace</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WcsPlugInService</td>
+<td>&nbsp;Windows Color System</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;wcncsvc</td>
+<td>&nbsp;Windows Connect Now – Config Registrar</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;wudfsvc</td>
+<td>&nbsp;Windows Driver Foundation – User-mode Driver Framework</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WerSvc</td>
+<td>&nbsp;Windows Error Reporting Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Wecsvc</td>
+<td>&nbsp;Windows Event Collector</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;eventlog</td>
+<td>&nbsp;Windows Event Log</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;MpsSvc</td>
+<td>&nbsp;Windows Firewall</td>
+<td>&nbsp;Disable</td>
+<td>&nbsp;防火墙</td>
+</tr>
+<tr>
+<td>&nbsp;FontCache</td>
+<td>&nbsp;Windows Font Cache Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;stisvc</td>
+<td>&nbsp;Windows Image Acquisition (WIA)</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;msiserver</td>
+<td>&nbsp;Windows Installer</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Winmgmt</td>
+<td>&nbsp;Windows Management Instrumentation</td>
+<td>&nbsp;Automatic</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WMPNetworkSvc</td>
+<td>&nbsp;Windows Media Player Network Sharing Service</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;TrustedInstaller</td>
+<td>&nbsp;Windows Modules Installer</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;FontCache3.0.0.0</td>
+<td>&nbsp;Windows Presentation Foundation Font Cache 3.0.0.0</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WinRM</td>
+<td>&nbsp;Windows Remote Management (WS-Management)</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WSearch</td>
+<td>&nbsp;Windows Search</td>
+<td>&nbsp;Disable</td>
+<td>搜索索引</td>
+</tr>
+<tr>
+<td>&nbsp;W32Time</td>
+<td>&nbsp;Windows Time</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;wuauserv</td>
+<td>&nbsp;Windows Update</td>
+<td>&nbsp;Manual</td>
+<td>自动更新</td>
+</tr>
+<tr>
+<td>&nbsp;WinHttpAutoProxySvc</td>
+<td>&nbsp;WinHTTP Web Proxy Auto-Discovery Service</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;dot3svc</td>
+<td>&nbsp;Wired AutoConfig</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Wlansvc</td>
+<td>&nbsp;WLAN AutoConfig</td>
+<td>&nbsp;Automatic</td>
+<td>&nbsp;无线</td>
+</tr>
+<tr>
+<td>&nbsp;wmiApSrv</td>
+<td>&nbsp;WMI Performance Adapter</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;LanmanWorkstation</td>
+<td>&nbsp;Workstation</td>
+<td>&nbsp;Manual</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;WwanSvc</td>
+<td>&nbsp;WWAN AutoConfig</td>
+<td>&nbsp;Disable</td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;Windows Defender Service</td>
+<td>&nbsp;Windows Defender Service</td>
+<td>&nbsp;Disable</td>
+<td>&nbsp;防护</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>转载请注明：<a href="http://www.clxp.net.cn/" data-original-title="" title="">死性不改's Blog</a> » <a href="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog.htm" data-original-title="" title="">Win7 服务优化方案 （个人、网吧均适用）</a></p>		</article>
+
+		
+		<footer class="article-footer">
+			<div class="article-tags">继续浏览有关 <a href="http://www.clxp.net.cn/article/tag/win7" rel="tag">win7</a> 的文章</div>			<div class="share"><h5>分享到 </h5><div class="bdsharebuttonbox bdshare-button-style0-24" data-bd-bind="1429604129693"><a class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a class="bds_t163" data-cmd="t163"></a><a class="bds_tsohu" data-cmd="tsohu" title="分享到搜狐微博"></a><a class="bds_baidu" data-cmd="baidu"></a><a class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a class="bds_bdhome" data-cmd="bdhome" title="分享到百度新首页"></a><a class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a><a class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a><a class="bds_twi" data-cmd="twi" title="分享到Twitter"></a><a class="bds_more" data-cmd="more"></a><a class="bds_count" data-cmd="count" title="累计分享12次">12</a></div></div>		</footer>
+
+		<nav class="article-nav">
+			<span class="article-nav-prev">上一篇 <a href="http://www.clxp.net.cn/article/3009.html" rel="prev">英雄联盟为什么会这么受玩家欢迎？？？</a></span>
+			<span class="article-nav-next"><a href="http://www.clxp.net.cn/article/3019.html" rel="next">让 IE10/IE11 以32位方式启动</a> 下一篇</span>
+		</nav>
+
+		<div class="relates">
+			<h3>与本文相关的文章</h3>
+			<ul>
+<li><a href="http://www.clxp.net.cn/article/4118.html">无盘Winx64位使用F2A88XM-DS2主板出现开机读取68M数据后离线，1分钟后上线问题</a></li><li><a href="http://www.clxp.net.cn/article/4095.html">Win7无盘，开机0x000000a5蓝屏解决方案</a></li><li><a href="http://www.clxp.net.cn/article/3988.html">着手解决无盘64位Win7近期出现0x0000003b蓝屏问题，有问题的快来反馈啦！</a></li><li><a href="http://www.clxp.net.cn/article/3723.html">微案例：梅捷F2A85使用Win7x64位无盘随机无法启动解决方案</a></li><li><a href="http://www.clxp.net.cn/article/3488.html">通过批处理查看Win7&amp;Win2008开机速度（启动耗时）</a></li><li><a href="http://www.clxp.net.cn/article/3326.html">ISO9000 14Q3 系列系统正式发布</a></li><li><a href="http://www.clxp.net.cn/article/3235.html">Win7应用程序无响应，程序出现白框等问题</a></li><li><a href="http://www.clxp.net.cn/article/3019.html">让 IE10/IE11 以32位方式启动</a></li></ul>		</div>
+	
+
+		<div class="banner banner-related"><a href="http://www.clxp.net.cn/donate" target="_blank"><img class="aligncenter" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/donate.png" alt="赞助本站，加入“吃渔team！”" width="950" height="120"></a></div>
+		<div id="respond" class="no_webshot">
+		<h3 class="queryinfo">
+		您必须 <a href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录</a> 才能发表评论！	</h3>
+	</div>
+<div id="postcomments">
+	<h3 id="comments">
+		网友最新评论<b> (24)</b>
+	</h3>
+	<ol class="commentlist">
+		<li class="comment even thread-even depth-1" id="comment-22037"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-22037"><p>Multimedia Class Scheduler禁用后Windows Audio启动不了</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/haiguikni" rel="external nofollow" class="url" target="_blank">阿龟</a></span>8个月前 (08-10)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-ly5360 odd alt depth-2 administrator" id="comment-22040"><div class="c-avatar"><img alt="楚林" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/08/2014-08-05_08-21-30-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-22040"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-22037">阿龟</a><br>打开注册表HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/Audiosrv，在右侧找到DependOnService项目，删除MMCSS即可！优化这个服务是解决Win7下网络游戏PING的时候MS值高的问题，而这个操作是删除该服务于audio服务的依赖关系，也就是解决你所说的问题！</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/mir-lin" rel="external nofollow" class="url" target="_blank">死性不改</a></span>8个月前 (08-11)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment byuser comment-author-scarylb even thread-odd thread-alt depth-1 subscriber" id="comment-22022"><div class="c-avatar"><img alt="闲听风雨淡看尘" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/11/2014-11-23_12-44-18-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-22022"><p>将下列文本通过记事本保存为.bat@echo offecho. 按任意键开始优化服务pause &gt;nulsc config   AxInstSV start= Disabledsc config   SensrSvc start= Disabledsc config   AeLookupSvc start= demandsc config   AppIDSvc start= demandsc config   Appinfo start= demandsc config   ALG start= Disabledsc config   AppMgmt start= Disabledsc config   aspnet_state start= Disabledsc config   BITS start= demandsc config   BFE start= Autosc config   BDESVC start= Disabledsc config   wbengine start= Disabledsc config   PeerDistSvc start= Disabledsc config   CertPropSvc start= Disabledsc config   KeyIso start= demandsc config   EventSystem start= Autosc config   COMSysApp start= demandsc config   Browser start= demandsc config   VaultSvc start= Disabledsc config   CryptSvc start= Autosc config   DcomLaunch start= Autosc config   UxSms start= Autosc config   Dhcp start= Autosc config   DPS start= Disabledsc config   WdiServiceHost start= Disabledsc config   WdiSystemHost start= Disabledsc config   defragsvc start= demandsc config   TrkWks start= Disabledsc config   MSDTC start= demandsc config   Dnscache start= Autosc config   EFS start= Disabledsc config   EapHost start= demandsc config   fdPHost start= Disabledsc config   FDResPub start= Disabledsc config   gpsvc start= Autosc config   hkmsvc start= Disabledsc config   HomeGroupListener start= Disabledsc config   HomeGroupProvider start= Disabledsc config   hidserv start= Autosc config   IKEEXT start= Autosc config   UI0Detect start= Disabledsc config   SharedAccess start= Disabledsc config   iphlpsvc start= Disabledsc config   PolicyAgent start= Autosc config   KtmRm start= demandsc config   lltdsvc start= Disabledsc config   clr_optimization_v2.0.50727_64 start= demandsc config   clr_optimization_v2.0.50727_32 start= demandsc config   clr_optimization_v4.0.30319_64 start= demandsc config   clr_optimization_v4.0.30319_32 start= demandsc config   MSiSCSI start= Autosc config   swprv start= demandsc config   MMCSS start= Disabledsc config   NetMsmqActivator start= Disabledsc config   NetPipeActivator start= Disabledsc config   NetTcpActivator start= Disabledsc config   NetTcpPortSharing start= Disabledsc config   Netlogon start= Disabledsc config   napagent start= Disabledsc config   Netman start= demandsc config   netprofm start= demandsc config   NlaSvc start= Autosc config   nsi start= Autosc config   CscService start= Disabledsc config   WPCSvc start= Disabledsc config   PNRPsvc start= Disabledsc config   p2psvc start= Disabledsc config   p2pimsvc start= Disabledsc config   PerfHost start= demandsc config   pla start= demandsc config   PlugPlay start= Autosc config   IPBusEnum start= Disabledsc config   PNRPAutoReg start= Disabledsc config   WPDBusEnum start= Disabledsc config   Power start= Autosc config   Spooler start= Disabledsc config   wercplsupport start= Disabledsc config   PcaSvc start= Disabledsc config   ProtectedStorage start= demandsc config   QWAVE start= Disabledsc config   RasAuto start= demandsc config   RasMan start= Autosc config   SessionEnv start= Disabledsc config   TermService start= demandsc config   UmRdpService start= Disabledsc config   RpcSs start= Autosc config   RpcLocator start= Disabledsc config   RemoteRegistry start= Disabledsc config   RemoteAccess start= Disabledsc config   RpcEptMapper start= Autosc config   seclogon start= demandsc config   SstpSvc start= demandsc config   SamSs start= Autosc config   wscsvc start= Disabledsc config   LanmanServer start= Disabledsc config   ShellHWDetection start= Autosc config   SCardSvr start= Disabledsc config   SCPolicySvc start= Disabledsc config   SNMPTRAP start= Disabledsc config   sppsvc start= Autosc config   sppuinotify start= demandsc config   SSDPSRV start= demandsc config   StorSvc start= demandsc config   SysMain start= Autosc config   SENS start= Autosc config   TabletInputService start= Disabledsc config   Schedule start= Autosc config   lmhosts start= Autosc config   TapiSrv start= demandsc config   Themes start= Autosc config   THREADORDER start= demandsc config   TBS start= Disabledsc config   upnphost start= demandsc config   ProfSvc start= Autosc config   vds start= demandsc config   VSS start= demandsc config   WebClient start= Disabledsc config   AudioSrv start= Autosc config   AudioEndpointBuilder start= Autosc config   SDRSVC start= Disabledsc config   WbioSrvc start= Disabledsc config   idsvc start= demandsc config   WcsPlugInService start= Disabledsc config   wcncsvc start= Disabledsc config   wudfsvc start= demandsc config   WerSvc start= Disabledsc config   Wecsvc start= demandsc config   eventlog start= Autosc config   MpsSvc start= Disabledsc config   FontCache start= demandsc config   stisvc start= demandsc config   msiserver start= demandsc config   Winmgmt start= Autosc config   WMPNetworkSvc start= demandsc config   TrustedInstaller start= demandsc config   FontCache3.0.0.0 start= demandsc config   WinRM start= Disabledsc config   WSearch start= Disabledsc config   W32Time start= Disabledsc config   wuauserv start= demandsc config   WinHttpAutoProxySvc start= Disabledsc config   dot3svc start= Disabledsc config   Wlansvc start= Autosc config   wmiApSrv start= demandsc config   LanmanWorkstation start= demandsc config   WwanSvc start= Disabledsc config   Windows Defender Service start= Disabledecho. 服务优化完毕，按任意键关闭。pause&amp;exit</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">scarylb</span>8个月前 (08-10)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment odd alt depth-2" id="comment-22023"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-22023"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-22022">scarylb</a><br>多谢！！！</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://weibo.com/blue169" rel="external nofollow" class="url" target="_blank">灰色理想新家</a></span>8个月前 (08-10)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+<li class="comment byuser comment-author-123 bypostauthor even depth-2 subscriber" id="comment-22024"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/04caf0efcd699b6706537385d2ebbbdd?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-22024"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-22022">scarylb</a><br>勤劳致富，赞一个。</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/twtymci" rel="external nofollow" class="url" target="_blank">NetReptile</a></span>8个月前 (08-10)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-hezhaoshun odd alt depth-3 subscriber" style="margin-left:-11px;" id="comment-24587"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/e78157a19fb0b8f54a108b78191b0aa6?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-24587"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-22024">NetReptile</a><br>优化之后音频服务不能运行，开启音频服务出现错误1068</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">hezhaoshun</span>6个月前 (11-04)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-ly5360 even depth-4 administrator" style="margin-left:-11px;" id="comment-24591"><div class="c-avatar"><img alt="楚林" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/08/2014-08-05_08-21-30-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-24591"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-24587">hezhaoshun</a><br>把这个注册表导入进去Windows Registry Editor Version 5.00#删除Windows Audio服务与Multimedia Class Scheduler(MMCSS)服务的依存关系,解决网络游戏卡问题.[HKEY_LOCAL_MACHINESYSTEMCurrentControlSetservicesAudiosrv]”DependOnService”=-[HKEY_LOCAL_MACHINESYSTEMCurrentControlSetservicesAudiosrv]”DependOnService”=hex(7):41,00,75,00,64,00,69,00,6f,00,45,00,6e,00,64,00,70,00,  6f,00,69,00,6e,00,74,00,42,00,75,00,69,00,6c,00,64,00,65,00,72,00,00,00,52,  00,70,00,63,00,53,00,73,00,00,00,00,00</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/mir-lin" rel="external nofollow" class="url" target="_blank">死性不改</a></span>6个月前 (11-04)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-hezhaoshun odd alt depth-5 subscriber" style="margin-left:-11px;" id="comment-24599"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/e78157a19fb0b8f54a108b78191b0aa6?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-24599"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-24591">死性不改</a><br>感谢！</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">hezhaoshun</span>6个月前 (11-04)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment byuser comment-author-scarylb even depth-3 subscriber" style="margin-left:-11px;" id="comment-25157"><div class="c-avatar"><img alt="闲听风雨淡看尘" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/11/2014-11-23_12-44-18-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-25157"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-22024">NetReptile</a><br>佳哥，关于 IPsec Policy Agent这个服务，我有点疑问哈，禁用和启用在平常使用时感觉不到区别。</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">闲听风雨淡看尘</span>5个月前 (11-26)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-123 bypostauthor odd alt depth-4 subscriber" style="margin-left:-11px;" id="comment-25162"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/04caf0efcd699b6706537385d2ebbbdd?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-25162"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-25157">闲听风雨淡看尘</a><br>组策略中IP安全策略是需要的，禁止了IP安全策略就不生效了。</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/twtymci" rel="external nofollow" class="url" target="_blank">邓佳</a></span>5个月前 (11-26)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-scarylb even depth-5 subscriber" style="margin-left:-11px;" id="comment-25165"><div class="c-avatar"><img alt="闲听风雨淡看尘" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/11/2014-11-23_12-44-18-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-25165"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-25162">邓佳</a><br>原来如此，我从没在那里做过策略</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">闲听风雨淡看尘</span>5个月前 (11-26)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+<li class="comment byuser comment-author-scarylb odd alt depth-5 subscriber" style="margin-left:-11px;" id="comment-25166"><div class="c-avatar"><img alt="闲听风雨淡看尘" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/11/2014-11-23_12-44-18-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-25166"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-25162">邓佳</a><br>给我个你的邮箱地址，还有楚老大的邮箱地址。有个文档发你们</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">闲听风雨淡看尘</span>5个月前 (11-26)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-123 bypostauthor even depth-6 subscriber" style="margin-left:-11px;" id="comment-25172"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/04caf0efcd699b6706537385d2ebbbdd?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-25172"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-25166">闲听风雨淡看尘</a><br>可联系我的QQ 3086417</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/twtymci" rel="external nofollow" class="url" target="_blank">邓佳</a></span>5个月前 (11-26)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="comment-21992"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21992"><p>最好直接给批处理文件、手工太辛苦了</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/huleinet" rel="external nofollow" class="url" target="_blank">胡雷</a></span>8个月前 (08-09)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-123 bypostauthor even depth-2 subscriber" id="comment-22000"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/04caf0efcd699b6706537385d2ebbbdd?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-22000"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-21992">胡雷</a><br>服务列表仅用作于参考，我希望的是每一位技术人员手里都能有一份自己亲手制作的批处理。这样不但可以根据自己当地网吧的环境做一些自定义，还可以深度的了解自己到底修改过哪些服务。</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/twtymci" rel="external nofollow" class="url" target="_blank">NetReptile</a></span>8个月前 (08-09)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-21983"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21983"><p>非常周到！感谢楚大！如果能制作成现在的批处理就更nice了………</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://weibo.com/blue169" rel="external nofollow" class="url" target="_blank">灰色理想新家</a></span>8个月前 (08-09)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-ly5360 even depth-2 administrator" id="comment-21984"><div class="c-avatar"><img alt="楚林" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/08/2014-08-05_08-21-30-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21984"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-21983">灰色理想新家</a><br>这个是佳哥做的，不是楚大做的，仔细看文章作者噢~~ <img src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/tootha_org.gif"> </p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/mir-lin" rel="external nofollow" class="url" target="_blank">死性不改</a></span>8个月前 (08-09)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="comment-21970"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21970"><p>李哥下次更新Q3的系统会不会加入WIN2012的版本啊？</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/wordlove" rel="external nofollow" class="url" target="_blank">Snat</a></span>9个月前 (08-08)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-123 bypostauthor even depth-2 subscriber" id="comment-21980"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/04caf0efcd699b6706537385d2ebbbdd?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21980"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-21970">Snat</a><br>会考虑的。</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/twtymci" rel="external nofollow" class="url" target="_blank">NetReptile</a></span>9个月前 (08-09)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-21968"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21968"><p>这个是楚大自己实践出来的优化方案么？</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://weibo.com/blue169" rel="external nofollow" class="url" target="_blank">灰色理想新家</a></span>9个月前 (08-08)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-ly5360 even depth-2 administrator" id="comment-21969"><div class="c-avatar"><img alt="楚林" data-original="http://www.clxp.net.cn/wp-content/uploads/2014/08/2014-08-05_08-21-30-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21969"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-21968">灰色理想新家</a><br>这个是集合顺网技术部门研究出来的方案啦~比我自己的更靠谱~</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/mir-lin" rel="external nofollow" class="url" target="_blank">死性不改</a></span>9个月前 (08-08)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment byuser comment-author-chasedream odd alt thread-even depth-1 svip" id="comment-21963"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/3b5dc968d261d2a9efb53436bdcc5806?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21963"><p>你能把默认的服务状态和修改过的状态区分开来吗，例如：白色默认 红色 禁止 黄色 手动</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">chasedream</span>9个月前 (08-08)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div><ul class="children">
+<li class="comment byuser comment-author-123 bypostauthor even depth-2 subscriber" id="comment-21965"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/04caf0efcd699b6706537385d2ebbbdd?s=36&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D36&amp;r=G" class="avatar avatar-36 photo" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21965"><p>@<a href="http://www.clxp.net.cn/article/3012.html#comment-21963">chasedream</a><br>对于系统原始服务方案来说，其实你只需要对比需要禁用的那些就可以了。</p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author"><a href="http://t.qq.com/twtymci" rel="external nofollow" class="url" target="_blank">NetReptile</a></span>9个月前 (08-08)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-21960"><div class="c-avatar"><img alt="" data-original="https://secure.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=36" class="avatar avatar-36 photo avatar-default" height="36" width="36" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/default.png"></div><div class="c-main" id="div-comment-21960"><p>很实用，感谢分享，收藏了！ <img src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/cool_org.gif"> </p>
+<div class="c-main"></div><div class="c-meta"><span class="c-author">放飞心情</span>9个月前 (08-08)<a rel="nofollow" class="comment-reply-login" href="http://www.clxp.net.cn/wp-login.php?redirect_to=http%3A%2F%2Fwww.clxp.net.cn%2Farticle%2F3012.html">登录以回复</a></div></div></li><!-- #comment-## -->
+	</ol>
+	<div class="pagenav">
+			</div>
+</div>
+
+		
+	</div>
+</div>
+<aside class="sidebar">	
+<div class="widget sexy_login_widget"><h3 class="widget_tit">快速登录</h3>		
+		<div id="sexy-login-show-error" style="max-width: 360px;"></div>
+   
+		<div id="sexy-login-wrap" style="max-width: 360px;">
+			
+					<div id="sexy-login-tabs">
+			
+				<a class="sexy-login-tab selected" name="sl-tab-login" href="http://www.clxp.net.cn/article/3012.html#" style="width: 50%;">登录</a>
+
+				 
+					<a class="sexy-login-tab" style="border-left: 1px solid #ccc; margin-left: -1px;" name="sl-tab-registration" href="http://www.clxp.net.cn/wp-login.php?action=register">注册</a>
+								
+			</div>
+			
+			<div id="sexy-login-content-tab">
+			
+				 
+				
+				<div id="sexy-login-registration-form" class="sexy-login-form-wrap">
+					
+					<form id="sl-registration-form" action="http://www.clxp.net.cn/wp-login.php?action=register" method="post">
+						<p>
+							<!--[if lte IE 9]><label for="sl-first-input-registration">登录账号：注册后使用该帐号登录: </label><![endif]-->
+							<input type="text" name="user_login" size="20" class="sl-input" id="sl-first-input-registration" placeholder="登录帐号，注册后使用该帐号登录" tabindex="421" required="">
+						</p>
+						<p>
+							<!--[if lte IE 9]><label for="user_email">注册邮箱：帐号密码将发送到您的邮箱内: </label><![endif]-->
+							<input type="email" name="user_email" class="sl-input" id="sl-user-email" size="25" placeholder="注册邮箱，用于接收、重置帐号密码" tabindex="422" required="">
+						</p>
+						<p>
+							</p><div id="sexy-registration-recaptcha" class="sexy-div-captcha" style="display: none;"></div>
+							<input type="submit" name="user-submit" value="注册" tabindex="424">
+							<input type="hidden" id="nonce" name="nonce" value="bb6064071d"><input type="hidden" name="_wp_http_referer" value="/article/3012.html">							<input type="hidden" name="url" value="http://www.clxp.net.cn/wp-login.php?action=register">
+							<input type="hidden" name="redirect_to" value="http://www.clxp.net.cn/article/3012.html">
+						<p></p>
+					</form>
+					
+				</div>
+				
+								
+								
+				<div id="sexy-login-lostpwd-form" class="sexy-login-form-wrap">
+				
+					<h3>忘记密码？</h3>
+					
+					<p>请输入您的用户名或电子邮箱地址。您会收到一封包含创建新密码链接的电子邮件。</p>
+					
+					<form id="sl-lostpwd-form" method="post" action="http://www.clxp.net.cn/wp-login.php?action=lostpassword">
+						<p>
+							<input type="text" name="user_login" size="20" class="sl-input" id="sl-first-input-lostpwd" placeholder="Username or E-mail" required="" tabindex="421">
+						</p>
+						<p>
+							<input type="submit" name="user-submit" value="获取新密码" tabindex="422">
+							<input type="hidden" id="nonce" name="nonce" value="bb6064071d"><input type="hidden" name="_wp_http_referer" value="/article/3012.html">							<input type="hidden" name="redirect_to" value="http://www.clxp.net.cn/article/3012.html">
+						</p><p>
+					</p></form>
+					
+				</div>
+				
+								
+				<div id="sexy-login-login-form" class="sexy-login-form-wrap" style="display: block;">
+				
+					<form id="sl-login-form" action="http://www.clxp.net.cn/wp-login.php" method="post">
+						<p>
+							<!--[if lte IE 9]><label for="sl-first-input-login">登录帐号:</label><![endif]-->
+							<input type="text" name="log" id="sl-first-input-login" size="20" placeholder="登录帐号" tabindex="421" required="">
+						</p>
+						<p>
+							<!--[if lte IE 9]><label for="sl-user-pass-login">帐号密码:</label><![endif]-->
+							<input type="password" name="pwd" id="sl-user-pass-login" size="20" placeholder="帐号密码" tabindex="422" required="">
+						</p>
+						
+						<div id="sexy-login-recaptcha" class="sexy-div-captcha" style="display: none;"></div>
+						
+						<input type="submit" name="wp-submit" class="submit-button" value="登录" tabindex="424">
+						
+						<input type="hidden" name="rememberme" value="forever">
+						<input type="hidden" name="redirect_to" value="http://www.clxp.net.cn/article/3012.html">
+						<input type="hidden" id="nonce" name="nonce" value="bb6064071d"><input type="hidden" name="_wp_http_referer" value="/article/3012.html">						
+					</form>
+				
+											<a name="sl-tab-lostpwd" href="http://www.clxp.net.cn/wp-login.php?action=lostpassword" title="忘记密码？" tabindex="425">忘记密码？</a>
+										
+				</div> 
+			
+			</div> <!-- END sexy-login-content-tab -->
+
+			</div></div><div class="widget d_comment"><h3 class="widget_tit">最新评论</h3><ul><li><a href="http://www.clxp.net.cn/article/4261.html#comment-29187" title="ISO9000系列系统15Q1版本3月17日正式发布上的评论"><img alt="冲击波波" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/2014-09-03_16-10-09-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36">冲击波波 <span class="muted">18小时前说：<br>Explorer.EXE-应用程序错误
+"0x79034524"指令引用的 "</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29186" title="留言板上的评论"><img alt="kevin512" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/2014-11-17_09-33-30-36x36.jpg" class="avatar avatar-36 photo" height="36" width="36">kevin512 <span class="muted">19小时前说：<br>Win7_14Q4_2200，360扫毒结果，是病毒吗？
+扫描结果
+====</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29185" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/e2ad79a8aea3897b7d0eab63eb69f1ce" class="avatar avatar-36 photo" height="36" width="36">a657948262 <span class="muted">20小时前说：<br>15Q1win7X64QQ崩溃怎么回事。</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29184" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/2142446f131c4f69388a7fc209e58269" class="avatar avatar-36 photo" height="36" width="36">mingge911 <span class="muted">20小时前说：<br>15Q1 运行不了尘埃3呢？</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29183" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/ab2a9e60e0e2621bcdb47e07e367130b" class="avatar avatar-36 photo" height="36" width="36">nuxingxp <span class="muted">20小时前说：<br>qq现在就喜欢报错，有的网吧报，有的又不报。</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29182" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/ab2a9e60e0e2621bcdb47e07e367130b" class="avatar avatar-36 photo" height="36" width="36">nuxingxp <span class="muted">20小时前说：<br>加个BAT，开机多少分钟自动关机或重启。这样如果远程没启动起来，会自己关机了</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29181" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/ab2a9e60e0e2621bcdb47e07e367130b" class="avatar avatar-36 photo" height="36" width="36">nuxingxp <span class="muted">20小时前说：<br>保值如何说来？</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29180" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/ab2a9e60e0e2621bcdb47e07e367130b" class="avatar avatar-36 photo" height="36" width="36">nuxingxp <span class="muted">20小时前说：<br>乱码是有多乱？有图或者详细写出来看看</span></a></li><li><a href="http://www.clxp.net.cn/gbook#comment-29179" title="留言板上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/ab2a9e60e0e2621bcdb47e07e367130b" class="avatar avatar-36 photo" height="36" width="36">nuxingxp <span class="muted">20小时前说：<br>15Q2呢？</span></a></li><li><a href="http://www.clxp.net.cn/article/4261.html#comment-29178" title="ISO9000系列系统15Q1版本3月17日正式发布上的评论"><img alt="" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/c8726d8db4d157e1dbc76aca38b8ca09" class="avatar avatar-36 photo" height="36" width="36">5500685 <span class="muted">1天前说：<br>请问使用7.1.7.0网维大师能否配合使用2200虚拟盘</span></a></li></ul></div><div class="widget widget_links"><h3 class="widget_tit">友情链接</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://blog.halouworld.com/" target="_blank">HalouWorld</a></li>
+<li><a href="http://www.skyshe.cn/" target="_blank">linux运维派</a></li>
+<li><a href="http://bbs.masterchat.cn/" target="_blank">产品帮</a></li>
+<li><a href="http://54li.com/" target="_blank">彬子窝</a></li>
+<li><a href="http://www.52boke.cn/" target="_blank">我爱博客</a></li>
+<li><a href="http://www.0713it.cn/" target="_blank">明天去要饭's Blog</a></li>
+<li><a href="http://58set.com/" target="_blank">易航's Blog</a></li>
+<li><a href="http://www.chunfengxiyu.com/" rel="friend met co-worker" target="_blank">春风细雨</a></li>
+<li><a href="https://blog.shiniv.com/" target="_blank">枫之落叶</a></li>
+<li><a href="http://honx.in/i/U_4Euuz5NEvi-Xpq" target="_blank">红杏翻墙</a></li>
+<li><a href="http://www.mydoop.com/" rel="friend" target="_blank">豆扑网</a></li>
+<li><a href="http://blog.nmgwddj.com/" rel="acquaintance met co-worker" target="_blank">邓佳的博客</a></li>
+<li><a href="http://www.cnit.net.cn/" target="_blank">顺网小哥's Blog</a></li>
+<li><a href="http://shayu.co/649100" target="_blank">鲨鱼VPN</a></li>
+
+	</ul>
+</div>
+<div class="widget widget_links"><h3 class="widget_tit">游戏服务器维护公告</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.dota2.com.cn/news/gamepost/index.htm" target="_blank">dota2|完美世界</a></li>
+<li><a href="http://x5.qq.com/webplat/info/news_version3/146/7399/7400/7404/m6201/list_1.shtml" target="_blank">QQ炫舞|腾讯</a></li>
+<li><a href="http://speed.qq.com/webplat/info/news_version3/147/534/535/537/m348/list_1.shtml" target="_blank">QQ飞车|腾讯</a></li>
+<li><a href="http://tera.kunlun.com/news/notice/" target="_blank">TERA|昆仑游戏</a></li>
+<li><a href="http://dnf.qq.com/webplat/info/news_version3/119/495/498/m394/list_1.shtml" target="_blank">地下城与勇士|腾讯</a></li>
+<li><a href="http://wot.kongzhong.com/erji/zixun/gonggao.html" target="_blank">坦克世界|空中网</a></li>
+<li><a href="http://www.m3guo.com/news/bulletin/" target="_blank">梦三国|电魂</a></li>
+<li><a href="http://cf.qq.com/webplat/info/news_version3/125/860/862/m639/list_1.shtml#fixNav" target="_blank">穿越火线|腾讯</a></li>
+<li><a href="http://lol.qq.com/webplat/info/news_version3/152/4579/4581/m3105/list_1.shtml" rel="me" target="_blank">英雄联盟|腾讯</a></li>
+<li><a href="http://nz.qq.com/webplat/info/news_version3/1421/2253/2254/2256/m2163/list_1.shtml" target="_blank">逆战|腾讯</a></li>
+
+	</ul>
+</div>
+<div class="widgetRoller" style="position: fixed; top: 10px; z-index: 0; width: 360px;"><div class="widget widget_links"><h3 class="widget_tit">游戏服务器维护公告</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.dota2.com.cn/news/gamepost/index.htm" target="_blank">dota2|完美世界</a></li>
+<li><a href="http://x5.qq.com/webplat/info/news_version3/146/7399/7400/7404/m6201/list_1.shtml" target="_blank">QQ炫舞|腾讯</a></li>
+<li><a href="http://speed.qq.com/webplat/info/news_version3/147/534/535/537/m348/list_1.shtml" target="_blank">QQ飞车|腾讯</a></li>
+<li><a href="http://tera.kunlun.com/news/notice/" target="_blank">TERA|昆仑游戏</a></li>
+<li><a href="http://dnf.qq.com/webplat/info/news_version3/119/495/498/m394/list_1.shtml" target="_blank">地下城与勇士|腾讯</a></li>
+<li><a href="http://wot.kongzhong.com/erji/zixun/gonggao.html" target="_blank">坦克世界|空中网</a></li>
+<li><a href="http://www.m3guo.com/news/bulletin/" target="_blank">梦三国|电魂</a></li>
+<li><a href="http://cf.qq.com/webplat/info/news_version3/125/860/862/m639/list_1.shtml#fixNav" target="_blank">穿越火线|腾讯</a></li>
+<li><a href="http://lol.qq.com/webplat/info/news_version3/152/4579/4581/m3105/list_1.shtml" rel="me" target="_blank">英雄联盟|腾讯</a></li>
+<li><a href="http://nz.qq.com/webplat/info/news_version3/1421/2253/2254/2256/m2163/list_1.shtml" target="_blank">逆战|腾讯</a></li>
+
+	</ul>
+</div></div></aside></section>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="copyright pull-left">
+            版权所有，保留一切权利！ © 2015 <a href="http://www.clxp.net.cn/">死性不改's Blog</a>　Theme <a href="http://www.daqianduan.com/" target="_blank">D11</a>
+        </div>
+        <div class="trackcode pull-right">
+            <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252973090'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1252973090%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1252973090"><a href="http://www.cnzz.com/stat/website.php?web_id=1252973090" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/pic1.gif"></a></span><script src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/z_stat.php" type="text/javascript"></script><script src="./Win7 服务优化方案 （个人、网吧均适用） – 死性不改's Blog_files/core.php" charset="utf-8" type="text/javascript"></script>        </div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+function copy_code(text) {   
+  if (window.clipboardData) {   
+    window.clipboardData.setData("Text", text)   
+    alert("已经成功将原文链接复制到剪贴板！");   
+  } else {   
+    var x=prompt('您的浏览器可能不能正常复制\n请您手动进行 [快捷键 Ctrl+C ]：',text);   
+  }   
+}  
+</script>
+
+
+
+
+<!-- Dynamic page generated in 0.441 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-04-21 09:01:06 -->
+
+<!-- Compression = gzip --><div class="modal hide fade" id="feed" tabindex="-1" style="width:400px;margin-left:-200px;"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">×</button><h3>订阅死性不改's Blog</h3></div><div class="modal-body"><p><strong>订阅地址</strong><br><input type="text" class="input-block-level" value="http://www.clxp.net.cn/feed" readonly=""></p></div></div><div class="rollto" style="display: block;"><button class="btn btn-inverse" data-type="totop" title="回顶部"><i class="icon-eject icon-white"></i></button><button class="btn btn-inverse" data-type="torespond" title="发评论"><i class="icon-comment icon-white"></i></button></div><div id="bdimgshare_1429604129698" class="sr-bdimgshare sr-bdimgshare-list sr-bdimgshare-16 sr-bdimgshare-black" style="height:36px;line-height:26px;font-size:12px;width:autopx;display:none;" data-bd-bind="1429604129697"><div class="bdimgshare-bg"></div><div class="bdimgshare-content bdsharebuttonbox bdshare-button-style0-16"><label class="bdimgshare-lbl"> </label><a href="http://www.clxp.net.cn/article/3012.html#" onclick="return false;" class="bds_qzone" data-cmd="qzone" hidefocus=""></a><a href="http://www.clxp.net.cn/article/3012.html#" onclick="return false;" class="bds_tsina" data-cmd="tsina" hidefocus=""></a><a href="http://www.clxp.net.cn/article/3012.html#" onclick="return false;" class="bds_tqq" data-cmd="tqq" hidefocus=""></a><a href="http://www.clxp.net.cn/article/3012.html#" onclick="return false;" class="bds_renren" data-cmd="renren" hidefocus=""></a><a href="http://www.clxp.net.cn/article/3012.html#" onclick="return false;" class="bds_weixin" data-cmd="weixin" hidefocus=""></a><a href="http://www.clxp.net.cn/article/3012.html#" onclick="return false;" class="bds_more" data-cmd="more" hidefocus=""></a></div></div><div class="highslide-container" style="padding: 0px; border: none; margin: 0px; position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1001; direction: ltr;"><a class="highslide-loading" title="Click to cancel" href="javascript:;" style="position: absolute; top: -9999px; opacity: 0.75; z-index: 1;">Loading...</a><div style="display: none;"></div><div class="highslide-viewport highslide-viewport-size" style="padding: 0px; border: none; margin: 0px; visibility: hidden;"></div><table cellspacing="0" style="padding: 0px; border: none; margin: 0px; visibility: hidden; position: absolute; border-collapse: collapse; width: 0px;"><tbody style="padding: 0px; border: none; margin: 0px;"><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: 0px 0px; background-repeat: initial initial;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: 0px -40px; background-repeat: initial initial;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: -20px 0px; background-repeat: initial initial;"></td></tr><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: 0px -80px; background-repeat: initial initial;"></td><td class="rounded-white highslide-outline" style="padding: 0px; border: none; margin: 0px; position: relative;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: -20px -80px; background-repeat: initial initial;"></td></tr><tr style="padding: 0px; border: none; margin: 0px; height: auto;"><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: 0px -20px; background-repeat: initial initial;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: 0px -60px; background-repeat: initial initial;"></td><td style="padding: 0px; border: none; margin: 0px; line-height: 0; font-size: 0px; background-image: url(http://www.clxp.net.cn/wp-content/plugins/auto-highslide/highslide/graphics/outlines/rounded-white.png); height: 20px; width: 20px; background-position: -20px -20px; background-repeat: initial initial;"></td></tr></tbody></table></div></body></html>

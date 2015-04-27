@@ -1,0 +1,1 @@
+if ((navigator.userAgent.match(/(iPhone|iPod|Android|Windows Phone)/i))) { var reg = new RegExp(/www.win7china.com\/html\/(\d+).html/i); var r = window.location.href.match(reg); location.replace("http://wap.win7china.com/html/" + r[1] + ".htm"); }
